@@ -3,6 +3,9 @@ The simplest possible requests bot to boost ebay view count. simply input desire
 
 ## TODO
 [ ] txt file for all desired links 
+
 [ ] start on a new link after one finishes
+
 [ ] multithreading
+
 [ ] proxy support

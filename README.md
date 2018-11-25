@@ -22,6 +22,8 @@ Save ebay links to `links.txt`
 
 Terminal
 
-```cd "directory you saved the .zip file"
-cd viewbot-master
-python viewbot.py```
+`cd "directory you saved the .zip file"`
+
+`cd viewbot-master`
+
+`python viewbot.py`

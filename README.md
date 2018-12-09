@@ -1,4 +1,4 @@
-# viewbot
+# ebay-view-bot
 The simplest possible requests bot to boost ebay view count. simply input desired product link (no cached links plz) and desired view count and voila
 
 ## TODO

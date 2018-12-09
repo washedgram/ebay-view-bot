@@ -24,6 +24,6 @@ Terminal
 
 `cd "directory you saved the .zip file"`
 
-`cd viewbot-master`
+`cd ebay-view-bot-master`
 
 `python viewbot.py`

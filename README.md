@@ -18,9 +18,7 @@ Python 2.7, Requests
 
 ## Execution (macOS)
 
-Save ebay links to `links.txt`
-
-Terminal
+In terminal:
 
 `cd "directory you saved the .zip file"`
 

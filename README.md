@@ -18,14 +18,14 @@ Python 2.7, Requests
 
 To install Python: https://www.python.org/downloads/release/python-2715/
 
-To install Requests: `pip install requests`. need python first
+To install Requests: `pip install requests` - need python first
 
 ## Execution (macOS)
 
 In terminal:
 
-`cd "directory you saved the .zip file"`
-
-`cd ebay-view-bot-master`
-
-`python viewbot.py`
+```
+cd "directory you saved the .zip file"
+cd ebay-view-bot-master
+python viewbot.py
+```

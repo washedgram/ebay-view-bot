@@ -4,7 +4,7 @@ The simplest possible requests bot to boost ebay view count. simply input desire
 ## TODO
 [ ] txt file for all desired links 
 
-[ ] start on a new link after one finishes
+[ ] start on a new link after one finishes instead of finishing script
 
 [ ] multithreading
 
@@ -17,7 +17,8 @@ Click clone/download, unzip file
 Python 2.7, Requests
 
 To install Python: https://www.python.org/downloads/release/python-2715/
-To install Requests: `pip install requests`
+
+To install Requests: `pip install requests`. need python first
 
 ## Execution (macOS)
 

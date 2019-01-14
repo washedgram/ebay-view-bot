@@ -20,7 +20,7 @@ To install Python: https://www.python.org/downloads/release/python-2715/
 
 To install Requests: `pip install requests` - need python first
 
-## Execution (macOS)
+## Execution
 
 In terminal:
 

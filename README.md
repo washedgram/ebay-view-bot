@@ -16,6 +16,9 @@ Click clone/download, unzip file
 ## What do i need to run this?
 Python 2.7, Requests
 
+To install Python: https://www.python.org/downloads/release/python-2715/
+To install Requests: `pip install requests`
+
 ## Execution (macOS)
 
 In terminal:

@@ -27,5 +27,5 @@ In terminal:
 ```
 cd "directory you saved the .zip file"
 cd ebay-view-bot-master
-python viewbot.py
+python main.py
 ```

@@ -1,4 +1,3 @@
-
 import requests
 import time
 
@@ -9,7 +8,9 @@ def view():
     print (" --------------------------------------------\n")
     listingURL = raw_input(" Link : ")
     print
-    viewCount = int(raw_input(" How many views? : "))
+    # viewCount = int(raw_input(" How many views? : "))
+    viewCount = int(input(" How many views? : "))
+
     print
     print (" Watching ... ")
     print (" Do not close this window. ")
@@ -32,4 +33,3 @@ def view():
 
 if __name__ == '__main__':
   view()
-

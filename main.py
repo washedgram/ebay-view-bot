@@ -6,7 +6,7 @@ def view():
     print (" --------------------------------------------")
     print (" viewbot v.1.0.0")
     print (" --------------------------------------------\n")
-    listingURL = raw_input(" Link : ")
+    listingURL = input(" Link : ")
     print
     # viewCount = int(raw_input(" How many views? : "))
     viewCount = int(input(" How many views? : "))
@@ -33,3 +33,4 @@ def view():
 
 if __name__ == '__main__':
   view()
+

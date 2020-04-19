@@ -11,7 +11,7 @@ The simplest possible requests bot to boost ebay view count. Simply input desire
 Click `clone/download`, unzip file 
 
 ## What do i need to run this?
-Python 3.7, Requests
+Python, Requests
 
 - To install Python: https://www.python.org/
 - To install Requests: `pip install requests` - install python first
@@ -21,7 +21,7 @@ Python 3.7, Requests
 In CMD / Terminal:
 
 ```
-cd "directory you saved the .zip file"
+cd <directory you saved the .zip file>
 cd ebay-view-bot-master
-python3 main.py
+python main.py
 ```

@@ -9,12 +9,13 @@ The simplest possible requests bot to boost ebay view count. Simply input desire
 
 ## Installation
 Click `clone/download`, unzip file 
+
 In terminal: ```git clone https://github.com/washedgram/ebay-view-bot.git```
 
 ## What do i need to run this?
 Python, Requests
 
-- [Install Python](https://www.python.org/downloads/). If you have it installed correctly, typing 'python3' in your Terminal will open an interactive console where you can execute Python code. 
+- [Install Python 3.x.x](https://www.python.org/downloads/). If you have it installed correctly, typing 'python3' in your Terminal will open an interactive console where you can execute Python code. 
 - Install Requests: `pip install requests` - need to install python first
 
 ## Execution

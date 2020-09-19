@@ -15,7 +15,7 @@ In terminal: ```git clone https://github.com/washedgram/ebay-view-bot.git```
 ## What do i need to run this?
 Python, Requests
 
-- [Install Python 3.x.x](https://www.python.org/downloads/). If you have it installed correctly, typing 'python3' in your Terminal will open an interactive console where you can execute Python code. 
+- [Install Python 2.x.x](https://www.python.org/downloads/). If you have it installed correctly, typing 'python' in your Terminal will open an interactive console where you can execute Python code. 
 - Install Requests: `pip install requests` - need to install python first
 
 ## Execution
@@ -24,14 +24,13 @@ In CMD / Terminal:
 
 ```
 cd <directory you saved the .zip file>
-cd ebay-view-bot-master
-python3 main.py
+cd ebay-view-bot
+python main.py
 ```
 
 ## License
 
   ```MIT License
-
   Copyright (c) 2020 washedgram
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -50,4 +49,5 @@ python3 main.py
   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-  SOFTWARE.```
+  SOFTWARE.
+  ```

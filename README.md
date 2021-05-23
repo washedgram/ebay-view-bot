@@ -1,7 +1,7 @@
 # ebay-view-bot
 The simplest possible requests bot to boost ebay view count. Simply input desired product link (no cached links plz) and desired view count and voila
 
-## TODO (will probably never be done though)
+## TODO (will probably never be done though)  I finished these
 - [ ] txt file for all desired links
 - [ ] start on a new link after one finishes instead of finishing script
 - [ ] multithreading

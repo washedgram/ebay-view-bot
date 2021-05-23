@@ -23,10 +23,13 @@ def setup():
         setup()
     return links
 
-def setup2():
+def setup2(links):
     choice = input("Would you like to use proxies? \n a. Yes \n b. No \n Input a or b: ")
     if choice.capitalize() == "A":
-        proxies = scrape_proxies()
+        if len(links[0]) == 1:
+            proxies = scrape_proxies(links)
+        else:
+            proxies = scrape_proxies(links[0])
     elif choice.capitalize() == "B":
         proxies = False
     else:
@@ -34,7 +37,7 @@ def setup2():
         setup2()
     return proxies
 
-def scrape_proxies():
+def scrape_proxies(link):
     scraped = 0
     f = open("proxies.txt", "a+")
     f.truncate(0)
@@ -44,7 +47,7 @@ def scrape_proxies():
         proxy = proxy.strip()
         if proxy:
             # test proxy
-            r = requests.get("https://www.ebay.com.au/itm/384089077771", proxies={"https://":proxy})
+            r = requests.get(link, proxies={"https://":proxy})
             if r.status_code == 200:
                 proxies.append(proxy)
     for p in proxies:
@@ -70,7 +73,7 @@ def main():
     print(" viewbot v.1.0.0")
     print(" --------------------------------------------\n")
     links = setup()
-    proxies = setup2()
+    proxies = setup2(links)
     print()
     # viewCount = int(raw_input(" How many views? : "))
     viewCount = int(input(" How many views? : "))
